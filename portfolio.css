@@ -1,0 +1,51 @@
+:root {
+    --pf-backround-color: #121212;
+    --pf-foreground-white: #e1e1e1e;
+    --pf-default-text-color: var(--pf-foreground-white)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: var(--pf-backround-color);
+    width: 100dvh;
+    height: 100dvh;
+    min-width: 1024px;
+    min-height: 917px;
+}
+
+.pf-slide-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.pf-slide-wrapper body {
+    position: relative;
+}
+
+.nav-drop-down {
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #343434;
+}
+/* .pf-slide-wrapper > body > pf-desktop-slide */
+
+.pf-desktop-slides {
+    display: fixed;
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+.main {
+    z-index: 1;
+}
