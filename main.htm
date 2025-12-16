@@ -3,17 +3,76 @@
 
 <head>
     <title></title>
-    <link rel="stylesheet" href="portfolio.css">
+    <!-- <link rel="stylesheet" href="portfolio.css"> -->
     <meta name="AUTHOR" content="Michael Saviour">
     <meta http-equiv="refresh" content="500">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        :root {
+            --pf-backround-color: #121212;
+            --pf-foreground-white: #e1e1e1e;
+            --pf-default-text-color: var(--pf-foreground-white)
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: block;
+            position: fixed;
+            background-color: var(--pf-backround-color);
+            width: 100vw;
+            height: 100vh;
+            min-width: 620px;
+            min-height: 620px;
+        }
+
+        .pf-slide-wrapper {
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .pf-slide-wrapper body {
+            position: relative;
+        }
+
+        .nav-drop-down {
+            height: 30px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            background-color: white;
+        }
+
+        /* .pf-slide-wrapper > body > pf-desktop-slide */
+
+        .pf-desktop-slides {
+            display: fixed;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .main {
+            z-index: 1;
+        }
+    </style>
 </head>
 
 <body>
     <div class="pf-slide-wrapper">
         <div class="pf-desktop-slides main" id="slide-1">
+
             <body>
-                <div class="nav-drop-down"></div>
+                <div class="nav-drop-down">
+                    <!-- /workspaces/-PortFolio/icon/view_agenda_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg -->
+                    <!-- <img src="icon/category_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="" /> -->
+                </div>
             </body>
         </div>
         <div class="pf-desktop-slide description" id="slide-2">
