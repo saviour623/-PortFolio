@@ -1,0 +1,27 @@
+<svg viewBox="0 0 120 120" preserveAspectRation="none" xmlns="http://www.w3.org/2000/svg">
+	    <defs>
+	        <path id="tpath" d="M25,60a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+	        <path style="" id="tpath2" d="M16,60a44,44 0 1,0 88,0a44,44 0 1,0 -88,0"/>
+	        <path style="transform-origin: center; transform: rotate(-24.5deg)" id="tpath3" d="M21,60a39,39 0 1,1,78,0a39,39 0 1,1,-78,0z" />
+	        <path style="transform-origin: center; transform: rotate(-41deg)" id="tpath4" d="M15,60a45,45 0 1,0,90,0a45,45 0 1,0,-90,0z" />
+	    </defs>
+	    <g style="transform:translate(0, 9px)"><circle fill="darkorange" stroke="none" cx="60" cy="60" r="49" />
+	    <text style="font-size: 7.4px; font-weight: bold; letter-spacing: ; white-space: pre; "><textPath href="#tpath3">NATIONAL YOUTH                 SERVICE CORPS</textPath></text>
+	    <text style="font-size: 7.4px; font-weight: bold; letter-spacing: -.05px; white-space: pre; "><textPath href="#tpath4">SERVICE AND HUMILITY</textPath></text>
+	    <circle fill="white" stroke="black" cx="60" cy="60" r="33.5" />
+	    <circle style="fill: black; stroke: none" cx="25" cy="85" r="1.5" />
+	    <circle style="fill: black; stroke: none" cx="100.5" cy="75" r="1.5" />
+	        <g id="pole_fire" transform="scale(.95,1) translateX(2px)"><path id="handle" d="M57, 93.7 l-3 -56q-8 -7 -8 -20 v-9.1 h27 v9.1 q0 13 -8 20 l-3 56 h-5z" stroke="none" stroke-width=".5" ></path>
+	        <path id="fire" d="M46.13,8.65 q-1 -3 -.5 -5.4t-1 -4q1.6 0 2.3 1.3q1 -1.8 1.5 -4l.6 -1.5 q1 6 1.5 3t1.4 -3.8q0 4 2.2 6q.9 -2 -.8 -7q.8 0 2.7 3
+	            q.3 -2 -.3 -3.6q6 4.5 7 7q9 -7 8.9 -6q-3.8 6 0 11q1.9 3 1.2 4h-26.8z" fill="red" stroke="none"></path>
+	        <path d="M47,8q-1 -.2 -1 -3t1.1 -.6t-.2 3.5z" stroke="none" fill="white"></path>
+	           <path style="transform-origin: center; transform: rotate(-.5deg) translate()" d="M52.5,2.8q-2 0 -2 -2l.5 -2 .5 -1q.3 2 1.6 4.5l-.9 .58z" stroke="none" fill="white"></path>
+	            <path style="transform-origin: center; transform: scale(1.12, 1)" d="M59.18,-.3q0 -3.5 -2.3 -5.8q3 2 3 5v.7l-.7 1v-1" fill="white" stroke="none"></path>
+	        </g>
+	        <g style="transform: translateY(-3px) translateX(1.1px) scaleY(.994) scaleX(.96)">	    <path id="map" style="transform-origin: center; transform: scale(1.0, 1.05)" d="M35,79.5 q0 0 0 -9 q-0.2 -3 3.8 -7q2.6 -2.4 2 -7q-.7 -4 1.8 -7q-.9 -5 2 -5.5q2.2 .5 3 .5t2 -.7
+	        q4 0 8 7l7 0 2 -.7c7 -9 16 4 18 -2 s4 0 5 2s1.5 4 1.2 4q0 3 -3 2l-1.5 2q.8 2.5 -2 4q-3 10 -8 10l-3 7q-2 3 -4 -1.5l-2 -1q-3 2 -7 4 q1 3 -1.5 3l-1.8 2l-8 1.5q-1.5 -1 -1.3 -4.5q-6 -2 -7 -4l-4 0.5z" stroke-lineJoin="round" fill="white" stroke="black" stroke-width=".7"></path>
+	    <path id="pole" d="M40,79.5 l10 -31q0 -2 -1.5 -.8l-10 31q0 1 2 1z" fill="black" stroke="black" stroke-width=".5"></path>
+	    <path style="transform-origin: center; transform: scale(1, 1.05)" id="flag" d="M43, 70.5 q4.4 -7 5.5 -19.3q12 6 31 1.5q2.6 1 -2.4 8q-4 3 -3.4 8t-1.3 4t-4 -2t-4.8 0t-4 0t-2.3 -.8t-2 .4t-3 -.7q-2 0 -4 1t-6 .7z" fill="green" stroke="black" stroke-width=".3"></path>
+	    <path id="flag white" d="M52.4,70.2 q-.2 -4.6 2.6 -8t3.5 -8.4q0 -.2 1 -.5t6.3 -.2q2 .1 2 1q.8 1 -5 13q.6 2 -.1 3.85t-4 -.2q-.8 -.8 -2.3 .01t-3.75 -.45z" fill="white" stroke="black" stroke-width=".3"></path>
+	    </g></g>
+  </svg>
