@@ -18,6 +18,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            /* border: 1px solid; */
         }
 
         body {
@@ -41,19 +42,6 @@
             position: relative;
         }
 
-        .nav {
-            height: 30px;
-            width: 100%;
-            position: absolute;
-            top: 0;
-            background-color: transparent;
-        }
-        .drop-down {
-            margin: 20px;
-        }
-
-        /* .pf-slide-wrapper > body > pf-desktop-slide */
-
         .pf-desktop-slides {
             display: fixed;
             position: absolute;
@@ -62,7 +50,28 @@
         }
 
         .main {
-            z-index: 1;
+            z-index: 99999;
+        }
+
+        .main .nav {
+            height: fit-content;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            background-color: transparent;
+        }
+        .main .drop-down {
+            display: block;
+            padding: 20px;
+        }
+
+        .main .drop-down :hover {
+            rotate: -1 1 -.05 30deg;
+        }
+        /* .pf-slide-wrapper > body > pf-desktop-slide */
+
+        .main .footer {
+
         }
     </style>
 </head>
@@ -81,6 +90,7 @@
                         </svg>
                     </div>
                 </div>
+                <div class="footer"></div>
             </body>
         </div>
         <div class="pf-desktop-slide description" id="slide-2">
