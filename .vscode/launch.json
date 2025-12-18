@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:/Users/~airmmy/Documents/portfolio/-PortFolio/main.htm",
+            "url": "C:/Users/User/Documents/-PortFolio-1/main.htm",
             "webRoot": "${workspaceFolder}"
         }
     ]

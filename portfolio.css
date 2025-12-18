@@ -1,51 +1,103 @@
 :root {
-    --pf-backround-color: #eeeee;
-    --pf-foreground-white: #e1e1e1e;
-    --pf-default-text-color: var(--pf-foreground-white)
-}
+            --pf-backround-color: #121212;
+            --pf-foreground-white: #e1e1e1;
+            --pf-default-text-color: var(--pf-foreground-white)
+        }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+        @font-face {
+            font-family: 'artonex';
+            src: url("C:/Users/User/Documents/-PortFolio-1/fonts/Artonex Trial.ttf");
+        }
+        @font-face {
+            font-family: 'organix';
+            src: url("C:/Users/User/Documents/-PortFolio-1/fonts/Organix.otf");
+        }
 
-body {
-    display: block;
-    background-color: var(--pf-backround-color);
-    width: 100dvh;
-    height: 100dvh;
-    min-width: 1024px;
-    min-height: 917px;
-}
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            color: var(--pf-default-text-color);
+            /* border: 1px solid var(--pf-foreground-white); */
+        }
 
-.pf-slide-wrapper {
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
+        body {
+            display: block;
+            position: fixed;
+            background-color: var(--pf-backround-color);
+            width: 100vw;
+            height: 100vh;
+            min-width: 800px;
+            min-height: 917px;
+        }
 
-.pf-slide-wrapper body {
-    position: relative;
-}
+        .pf-slide-wrapper {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
 
-.nav-drop-down {
-    height: 30px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    background-color: #343434;
-}
-/* .pf-slide-wrapper > body > pf-desktop-slide */
+        .pf-slide-wrapper body {
+            position: relative;
+        }
 
-.pf-desktop-slides {
-    display: fixed;
-    position: absolute;
-    height: 100%;
-    width:  100%;
-}
+        .pf-desktop-slides {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
 
-.main {
-    z-index: 1;
-}
+        .main {
+            z-index: 99999;
+        }
+
+        .main .nav {
+            max-height: 15%;
+            width: 100%;
+            position: relative;
+            background-color: transparent;
+        }
+
+        .main .nav .drop-down {
+            display: inline-block;
+            padding: 40px;
+        }
+
+        .nav #AUTHOR {
+            display: none;
+            font-family: 'Segoe UI';
+        }
+
+        .nav #AUTHOR {
+            font-style: normal;
+            text-emphasis: none;
+        }
+        .main .main-design {
+            display: flex;
+            height: 70%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-design #main-design-text {
+            display: inline-block;
+            font-family: artonex, organix;
+            font-size: 12.5ch;
+            color: var(--pf-default-text-color);
+            letter-spacing: -.05ch;
+        }
+
+        #main-design-text span {
+            display: inline-block;
+            position: relative;
+        }
+        #main-design-text > span:first-child {
+            color: #1884f0;
+            font-size: .9ch;
+            vertical-align: baseline;
+            font-family: organix;
+            writing-mode: sideways-lr;
+        }
+        .main .footer {
+            height: 15%;
+        }
