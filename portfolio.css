@@ -6,11 +6,11 @@
 
         @font-face {
             font-family: 'artonex';
-            src: url("C:/Users/User/Documents/-PortFolio-1/fonts/Artonex Trial.ttf");
+            src: url("fonts/Artonex Trial.ttf");
         }
         @font-face {
             font-family: 'organix';
-            src: url("C:/Users/User/Documents/-PortFolio-1/fonts/Organix.otf");
+            src: url("fonts/Organix.otf");
         }
 
         * {
@@ -92,7 +92,8 @@
             position: relative;
         }
         #main-design-text > span:first-child {
-            color: #1884f0;
+            /* color: #1884f0; */
+            color: #1f4069;
             font-size: .9ch;
             vertical-align: baseline;
             font-family: organix;

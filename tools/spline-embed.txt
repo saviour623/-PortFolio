@@ -1,0 +1,12 @@
+https://my.spline.design/code-A7lBSlJbik1bFUGevxhYoSSq/
+
+https://my.spline.design/code-A7lBSlJbik1bFUGevxhYoSSq/
+
+
+import Spline from '@splinetool/react-spline';
+
+export default function App() {
+  return (
+    <Spline scene="https://prod.spline.design/nnfgKI6iwWMio6lb/scene.splinecode" />
+  );
+}
