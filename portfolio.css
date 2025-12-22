@@ -1,6 +1,7 @@
 :root {
             --pf-backround-color: #121212;
             --pf-foreground-white: #e1e1e1;
+            --pf-interface-blue: #2464bb;
             --pf-default-text-color: var(--pf-foreground-white)
         }
 
@@ -66,12 +67,27 @@
         .nav #AUTHOR {
             display: inline-block;
             font-family: 'Segoe UI';
+            font-family:'Courier New', Courier, monospace;
+            position: absolute;
+            right: 5%;
         }
 
-        .nav #AUTHOR {
-            font-style: normal;
-            text-emphasis: none;
+        .nav #AUTHOR img {
+            rotate: 0;
+            transition: rotate 1s linear;
         }
+        .nav #AUTHOR img:hover {
+            rotate: 360deg;
+        }
+
+        .nav #AUTHOR a {
+            text-decoration: none;
+            vertical-align: 8.5px;
+        }
+        .nav #AUTHOR :hover {
+            color: var(--pf-interface-blue)
+        }
+
         .main .main-design {
             display: flex;
             height: 70%;
@@ -93,7 +109,7 @@
         }
         #main-design-text > span:first-child {
             /* color: #1884f0; */
-            color: #2464bb;
+            color: var(--pf-interface-blue);
             font-size: .9ch;
             vertical-align: baseline;
             font-family: organix;
