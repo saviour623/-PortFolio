@@ -64,7 +64,7 @@
         }
 
         .nav #AUTHOR {
-            display: none;
+            display: inline-block;
             font-family: 'Segoe UI';
         }
 
