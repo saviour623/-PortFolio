@@ -1,0 +1,46 @@
+https://my.spline.design/code-A7lBSlJbik1bFUGevxhYoSSq/
+
+https://my.spline.design/code-A7lBSlJbik1bFUGevxhYoSSq/
+
+
+import Spline from '@splinetool/react-spline';
+
+export default function App() {
+  return (
+    <Spline scene="https://prod.spline.design/nnfgKI6iwWMio6lb/scene.splinecode" />
+  );
+}
+
+
+
+
+
+
+
+NEW
+
+
+https://my.spline.design/code-A7lBSlJbik1bFUGevxhYoSSq/
+
+https://prod.spline.design/nnfgKI6iwWMio6lb/scene.splinecode
+
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.26/build/spline-viewer.js"></script>
+<spline-viewer url="https://prod.spline.design/nnfgKI6iwWMio6lb/scene.splinecode"></spline-viewer>
+
+
+(REACT)
+import Spline from '@splinetool/react-spline';
+
+export default function App() {
+  return (
+    <Spline scene="https://prod.spline.design/nnfgKI6iwWMio6lb/scene.splinecode" />
+  );
+}
+
+
+(JS)
+import { Application } from '@splinetool/runtime';
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+app.load('https://prod.spline.design/nnfgKI6iwWMio6lb/scene.splinecode');
