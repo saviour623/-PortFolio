@@ -93,6 +93,8 @@
             height: 70%;
             justify-content: center;
             align-items: center;
+            pointer-events: none;
+            cursor: none;
         }
 
         .main-design #main-design-text {
@@ -101,6 +103,8 @@
             font-size: 12.5ch;
             color: var(--pf-default-text-color);
             letter-spacing: -.05ch;
+            pointer-events: none;
+            cursor: none;
         }
 
         #main-design-text span {
@@ -117,4 +121,5 @@
         }
         .main .footer {
             height: 15%;
+            font-family: 'Courier New', Courier, monospace;
         }
